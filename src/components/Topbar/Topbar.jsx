@@ -1,14 +1,4 @@
 import "./topbar.scss";
-import {
-  Person,
-  Mail,
-  Facebook,
-  Instagram,
-  GitHub,
-  LinkedIn,
-  WhatsApp,
-  Phone,
-} from "@material-ui/icons";
 import { Link } from "react-router-dom";
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
