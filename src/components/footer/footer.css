@@ -1,0 +1,46 @@
+.fooalluser {
+  padding: 2% !important;
+  margin-top: 4.5%;
+  background-color: rgba(211, 211, 211, 0.527);
+  /* position: relative; */
+}
+.carda {
+  /* height: 30vh; */
+  width: 98%;
+  margin: 0% auto;
+  border-radius: 16px;
+  box-shadow: -8px -2px 13px 0px rgba(0, 0, 0, 0.83);
+  /* -webkit-box-shadow: -8px -2px 13px 0px rgba(0, 0, 0, 0.83);
+  -moz-box-shadow: -8px -2px 13px 0px rgba(0, 0, 0, 0.83); */
+  padding: 2% 3%;
+  color: black;
+  background-color: grey;
+  /* position: absolute; */
+}
+.card-text {
+  letter-spacing: 1px;
+  line-height: 22px !important;
+  font-weight: 500;
+}
+.social > i {
+  padding: 1%;
+  font-size: 26px;
+  color: rgba(255, 0, 0, 0.767) !important;
+}
+
+.social > i:hover {
+  color: rgba(0, 0, 255, 0.658) !important;
+  cursor: pointer;
+}
+.divider {
+  border-top: 2px solid rgba(189, 196, 203, 0.5);
+}
+.social-media {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.social {
+  margin: 0px 20px;
+}

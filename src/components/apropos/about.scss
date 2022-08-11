@@ -1,0 +1,310 @@
+@import "../../global.scss";
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 50px;
+    overflow: hidden;
+    color: $mainColor;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .about-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    @include mobile {
+      width: 90%;
+      padding: 0;
+    }
+
+    h3 {
+      font-size: 28px;
+      margin: 20px 70px;
+      color: $mainColor;
+      @include mobile {
+        margin: 0;
+      }
+
+      span {
+        color: crimson;
+      }
+    }
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      margin: 30px 70px;
+      line-height: 1.5;
+      color: rgba(0, 0, 0, 0.603);
+
+      @include mobile {
+        margin: 0;
+      }
+    }
+  }
+  .about-personal-info {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    @include mobile {
+      width: 100%;
+      align-items: center;
+    }
+
+    .info {
+      align-items: center;
+      margin: 10px 50px;
+      padding: 5px;
+
+      @include mobile {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .info-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+        @include mobile {
+          padding: 0;
+
+          width: 100%;
+          margin: 0;
+          align-items: center;
+        }
+
+        .btn-about {
+          margin: 50px 100px;
+
+          display: flex;
+          justify-content: space-between;
+
+          @include mobile {
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+          }
+
+          button {
+            width: 150px;
+            border: none;
+            outline: none;
+            background-color: crimson;
+            border-radius: 10px;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            @include mobile {
+              margin: 10px;
+            }
+
+            a {
+              color: white;
+              text-decoration: none;
+            }
+          }
+        }
+
+        .info-item-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          @include mobile {
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .item-info {
+            flex: 0 0 48%;
+
+            @include mobile {
+              width: 90%;
+            }
+            p {
+              font-weight: 600;
+              padding: 12px;
+              font-size: 16px;
+              color: $mainColor;
+              border-bottom: 1px solid rgba(65, 64, 64, 0.356);
+              @include mobile {
+                width: 100%;
+                display: flex;
+              }
+
+              span {
+                font-weight: 500;
+                color: rgba(0, 0, 0, 0.527);
+                margin-left: 4px;
+
+                padding: 0px 10px;
+              }
+            }
+          }
+        }
+      }
+      .about-skills {
+        margin: 0 auto;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        @include mobile {
+          width: 100%;
+          margin: 0;
+        }
+
+        .skill-item {
+          padding: 0;
+          font-weight: 600;
+          font-size: 16px;
+          color: $mainColor;
+          text-transform: capitalize;
+          width: 80%;
+          .text {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          h5 {
+            line-height: 40px;
+            font-weight: 600;
+            font-size: 16px;
+
+            text-transform: capitalize;
+          }
+          .progress {
+            background-color: rgba(160, 156, 156, 0.5);
+            height: 7px;
+            border-radius: 4px;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            .in-progress {
+              position: absolute;
+              left: 0;
+              top: 0;
+              height: 100%;
+              border-radius: 4px;
+              background-color: crimson;
+            }
+            .skill-percent {
+              color: $mainColor;
+
+              height: 50px;
+
+              position: relative;
+              bottom: 50px;
+              h1 {
+                font-size: 50px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .about-resume {
+      width: 100%;
+      margin: 0 auto;
+      padding-bottom: 10px;
+      display: flex;
+      align-items: center;
+      @include mobile {
+        width: 100%;
+        flex-direction: column;
+      }
+
+      .education {
+        flex: 50%;
+
+        h2 {
+          font-size: 35px;
+          text-align: center;
+          margin-bottom: 30px;
+          margin-top: 30px;
+          font-weight: 700;
+          color: $mainColor;
+          padding: 10px 80px;
+          letter-spacing: 1px;
+        }
+        .education-section {
+          margin: 10px auto;
+          background-color: whitesmoke;
+          padding: 30px;
+          border: 2px solid rgba(192, 192, 192, 0.541);
+          border-radius: 10px;
+          width: 70%;
+          position: relative;
+
+          .timeline-item {
+            position: relative;
+            padding-left: 40px;
+            padding-bottom: 50px;
+
+            &:last-child {
+              padding-bottom: 0;
+            }
+
+            &::before {
+              content: "";
+              width: 2px;
+              position: absolute;
+              height: 100%;
+              left: 7px;
+              top: 0;
+              background-color: crimson;
+            }
+
+            .circle-dot {
+              position: absolute;
+              left: 0;
+              top: 0;
+              height: 15px;
+              width: 15px;
+              border-radius: 50%;
+              background-color: crimson;
+            }
+            .timeline-date {
+              font-weight: 500;
+              font-size: 16px;
+              color: $mainColor;
+              display: flex;
+              align-items: center;
+              margin-bottom: 15px;
+              .icon-about {
+                margin-right: 10px;
+              }
+            }
+            .timeline-title {
+              font-weight: 700;
+              font-size: 20px;
+              margin-bottom: 15px;
+              text-transform: capitalize;
+              color: rgba(0, 0, 0, 0.877);
+            }
+            .timeline-text {
+              line-height: 25px;
+              font-size: 16px;
+              text-align: justify;
+              color: rgba(3, 3, 32, 0.733);
+            }
+          }
+        }
+      }
+    }
+  }
+}
