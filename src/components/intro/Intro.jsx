@@ -28,8 +28,8 @@ export default function Intro() {
           <h2>Hi There, I'm</h2>
           <h1>Mohamed ali mrad</h1>
           <h4>
-            Motivated junior web developer looking for a role as full-stack web
-            developer . Passionate about building first-class web applications.
+          I’m a Web developer specializing in building and designing exceptional digital experiences. Currently, I’m focused on to learning more about Full-stack JS
+          Also i want to get more knowledge about Devops ( Docker,Ansible,jenkins,k8s...)
           </h4>
           <h3>
             Freelance <span ref={textRef}></span>

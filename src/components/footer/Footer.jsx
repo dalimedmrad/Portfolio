@@ -4,7 +4,6 @@ import {
   Person,
   Mail,
   Facebook,
-  Instagram,
   GitHub,
   LinkedIn,
   WhatsApp,

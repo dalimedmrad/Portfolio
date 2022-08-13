@@ -243,11 +243,12 @@
         }
         .education-section {
           margin: 10px auto;
+          margin-bottom: 55px !important;
           background-color: whitesmoke;
-          padding: 30px;
+          padding: 20px;
           border: 2px solid rgba(192, 192, 192, 0.541);
           border-radius: 10px;
-          width: 70%;
+          width: 80%;
           position: relative;
 
           .timeline-item {
@@ -290,7 +291,7 @@
               }
             }
             .timeline-title {
-              font-weight: 700;
+              font-weight: 800;
               font-size: 20px;
               margin-bottom: 15px;
               text-transform: capitalize;

@@ -141,10 +141,10 @@ export default function About() {
                   {" "}
                   Create and maintain a complete website:
                 </p>
-                <p className="timeline-text">- Front: React Js , React Redux</p>
+                <p className="timeline-text">- Front : React Js , Redux, Redux Toolkit</p>
                 <p className="timeline-text">
                   {" "}
-                  - Back: Node Js ,Rest API, MongoDB, Mongoose, Express
+                  - Back : Node Js ,Rest API, MongoDB, Mongoose, Express JS
                 </p>
               </div>
               <div className="timeline-item">
