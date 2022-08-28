@@ -1,17 +1,15 @@
 import Topbar from "./components/Topbar/Topbar";
-import Intro from "./components/intro/Intro";
-import Portfolio from "./components/portfolio/Potfolio";
-import Works from "./components/works/Works";
-import Testimonials from "./components/testimonials/Testimonials";
-import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
 import "./app.scss";
-import { useState } from "react";
-
-import About from "./components/apropos/About";
+import { useState, lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/footer/Footer";
-
+import Loader from "./components/Loader/Loader";
+const Intro = lazy(() => import("./components/intro/Intro"));
+const About = lazy(() => import("./components/apropos/About"));
+const Portfolio = lazy(() => import("./components/portfolio/Potfolio"));
+const Works = lazy(() => import("./components/works/Works"));
+const Contact = lazy(() => import("./components/contact/Contact"));
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
@@ -20,16 +18,17 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
       <div className="sections">
-        <Routes>
-          <Route exact path="/" element={<Intro />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/portfolio" element={<Portfolio />} />
-          <Route exact path="/works" element={<Works />} />
-          <Route exact path="/testimonials" element={<Testimonials />} />
-          <Route exact path="/contact" element={<Contact />} />
-        </Routes>
+        <Suspense fallback={<Loader />}>
+          <Routes>
+            <Route exact path="/" element={<Intro />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/works" element={<Works />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Suspense>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

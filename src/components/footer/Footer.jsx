@@ -14,7 +14,7 @@ const Footer = () => {
     <footer className="fooalluser">
       <div class="carda">
         <div class="row">
-          <div class="col-md-12 col-sm-11 col-xs-11">
+          <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="footer-text">
               <div class="d-flex">
                 <h1
@@ -27,7 +27,7 @@ const Footer = () => {
                   Contact information
                 </h1>
               </div>
-              <div className="itemComtainer first col-xm-12">
+              <div className="itemComtainer first col-xm-12 col-sm-12">
                 <Person className="icon" />
                 <span>
                   +216 27 914 561 &nbsp; /&nbsp;&nbsp; +216 56 813 222
