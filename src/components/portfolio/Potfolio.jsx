@@ -17,7 +17,6 @@ export default function Potfolio() {
                 </Carousel.Item>
               ))}
             </Carousel>
-
             <h3>{d.title}</h3>
           </div>
         ))}

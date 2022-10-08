@@ -40,37 +40,41 @@ const Works = () => {
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
       >
-        {data.map((d) => (
-          <div className="container">
+        {data.map((el) => (
+          <div className="containeraa">
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
                   <div className="imgContainer">
-                    <img src={d.icon} alt="" />
+                    <img src={el.icon} alt="" />
                   </div>
-                  <h2>{d.title}</h2>
-                  <p>{d.desc}</p>
+                  <h2>{el.title}</h2>
+                  <p>{el.desc}</p>
                 </div>
               </div>
               <div className="right">
-                <img src={d.img} alt="" />
+                <img src={el.img} alt="" />
               </div>
             </div>
           </div>
         ))}
       </div>
-      <img
-        src="assets/arrow.png"
-        className="arrow left"
-        alt=""
-        onClick={() => handleClick("left")}
-      />
-      <img
-        src="assets/arrow.png"
-        className="arrow right"
-        alt=""
-        onClick={() => handleClick()}
-      />
+      {currentSlide !== 0 && (
+        <img
+          src="assets/arrow.png"
+          className="arrow left"
+          alt=""
+          onClick={() => handleClick("left")}
+        />
+      )}
+      {currentSlide !== 2 && (
+        <img
+          src="assets/arrow.png"
+          className="arrow right"
+          alt=""
+          onClick={() => handleClick()}
+        />
+      )}
     </div>
   );
 };

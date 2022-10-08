@@ -10,6 +10,7 @@ const About = lazy(() => import("./components/apropos/About"));
 const Portfolio = lazy(() => import("./components/portfolio/Potfolio"));
 const Works = lazy(() => import("./components/works/Works"));
 const Contact = lazy(() => import("./components/contact/Contact"));
+const Certifcs = lazy(() => import("./components/certif/Certifcs"));
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/works" element={<Works />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/certifications" element={<Certifcs />} />
           </Routes>
         </Suspense>
       </div>

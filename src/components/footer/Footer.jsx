@@ -11,7 +11,7 @@ import {
 } from "@material-ui/icons";
 const Footer = () => {
   return (
-    <footer className="fooalluser">
+    <footer className="fooalluser col-xs-12">
       <div class="carda">
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
@@ -36,29 +36,36 @@ const Footer = () => {
               <div className="social mt-3 mb-3">
                 <div className="social-media">
                   <a
+                    rel="noopener"
                     target="_blank"
                     href="https://www.facebook.com/mohamed.mrad.1840/"
                   >
                     <Facebook className="icon social" />
                   </a>
                   <a
+                    rel="noopener"
                     target="_blank"
                     href="https://api.whatsapp.com/send/?phone=21627914561"
                   >
                     <WhatsApp className="icon social" />
                   </a>
                   <a
+                    rel="noopener"
                     target="_blank"
                     href="https://www.linkedin.com/in/mohamed-ali-mrad-3a9370199/"
                   >
                     <LinkedIn className="icon social" />
                   </a>
 
-                  <a target="_blank" href="https://github.com/dalimedmrad">
+                  <a
+                    rel="noopener"
+                    target="_blank"
+                    href="https://github.com/dalimedmrad"
+                  >
                     {" "}
                     <GitHub className="icon social" />
                   </a>
-                  <a href={`mailto:mohamedalimrad3@gmail.com`}>
+                  <a rel="noopener" href={`mailto:mohamedalimrad3@gmail.com`}>
                     <Mail className="icon social" />
                   </a>
                   <a href="tel:+21627914561">

@@ -94,173 +94,119 @@ export const reactPortfolio = [
       { path: "images/jobify/5.png" },
       { path: "images/jobify/6.png" },
       { path: "images/jobify/7.png" },
-
     ],
   },
 ];
 
-export const webPortfolio = [
-  {
-    id: 7,
-    title: "Happy Travelling",
-    img: "images/happy/happy-9.jpg",
-  },
-
-  {
-    id: 8,
-    title: "Happy Travelling",
-    img: "images/happy/happy-10.jpg",
-  },
-  {
-    id: 9,
-    title: "Happy Travelling",
-    img: "images/happy/happy-11.jpg",
-  },
-  {
-    id: 10,
-    title: "Happy Travelling",
-    img: "images/happy/happy-12.jpg",
-  },
-  {
-    id: 11,
-    title: "Happy Travelling",
-    img: "images/happy/happy-13.jpg",
-  },
-  {
-    id: 12,
-    title: "Happy Travelling",
-    img: "images/happy/happy-14.jpg",
-  },
-];
-
-export const mobilePortfolio = [
+export const certificats = [
   {
     id: 1,
-    title: "Portfolio MERN APP",
-    img: "images/FerielPort/feri-1.jpg",
+    title: "E-commerce",
+    path: "images/certif/certif2.jpg",
   },
-  {
-    id: 2,
-    title: "Portfolio MERN APP",
-    img: "images/FerielPort/feri-2.jpg",
-  },
-  {
-    id: 3,
-    title: "Portfolio MERN APP",
-    img: "images/FerielPort/feri-3.jpg",
-  },
-  {
-    id: 4,
-    title: "Portfolio MERN APP",
-    img: "images/FerielPort/feri-4.jpg",
-  },
-  {
-    id: 5,
-    title: "Portfolio MERN APP",
-    img: "images/FerielPort/feri-5.jpg",
-  },
-  {
-    id: 6,
-    title: "Portfolio MERN APP",
-    img: "images/FerielPort/feri-6.jpg",
-  },
-];
-
-export const designPortfolio = [
   {
     id: 1,
-    title: "Portfolio ",
-    img: "images/Port-html/fer-1.jpg",
+    title: "E-commerce",
+    path: "images/certif/certif3.jpg",
   },
-  {
-    id: 2,
-    title: "Portfolio ",
-    img: "images/Port-html/fer-2.jpg",
-  },
-  {
-    id: 3,
-    title: "Portfolio ",
-    img: "images/Port-html/fer-3.jpg",
-  },
-  {
-    id: 4,
-    title: "Portfolio ",
-    img: "images/Port-html/fer-4.jpg",
-  },
-  {
-    id: 5,
-    title: "Portfolio",
-    img: "images/Port-html/fer-5.jpg",
-  },
-  {
-    id: 6,
-    title: "Portfolio",
-    img: "images/Port-html/fer-6.jpg",
-  },
-];
-
-export const contentPortfolio = [
   {
     id: 1,
-    title: "Shine Space",
-    img: "images/shine/shine-1.jpg",
+    title: "E-commerce",
+    path: "images/certif/certif4.jpg",
   },
-  {
-    id: 2,
-    title: "Shine Space",
-    img: "images/shine/shine-2.jpg",
-  },
-  {
-    id: 3,
-    title: "Shine Space",
-    img: "images/shine/shine-3.jpg",
-  },
-  {
-    id: 4,
-    title: "Shine Space",
-    img: "images/shine/shine-4.jpg",
-  },
-  {
-    id: 5,
-    title: "Shine Space",
-    img: "images/shine/shine-5.jpg",
-  },
-  {
-    id: 6,
-    title: "Shine Space",
-    img: "images/shine/shine-6.jpg",
-  },
-];
-
-export const content2Portfolio = [
   {
     id: 1,
-    title: "Tilli Tanit",
-    img: "images/tilli/tilli-1.png",
+    title: "E-commerce",
+    path: "images/certif/certif5.png",
   },
   {
-    id: 2,
-    title: "Tilli Tanit",
-    img: "images/tilli/tilli-2.png",
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif7.jpg",
   },
   {
-    id: 3,
-    title: "Tilli Tanit",
-    img: "images/tilli/tilli-3.png",
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif8.jpg",
   },
   {
-    id: 4,
-    title: "Portfolio WordPress",
-    img: "images/port/port-1.png",
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif9.jpg",
   },
   {
-    id: 5,
-    title: "Portfolio WordPress",
-    img: "images/port/port-2.png",
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif10.jpg",
   },
   {
-    id: 6,
-    title: "Portfolio WordPress",
-    img: "images/port/port-3.png",
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif11.jpg",
+  },
+  {
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif12.jpg",
+  },
+  {
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif13.jpg",
+  },
+  {
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif14.jpg",
+  },
+  {
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif16.jpg",
+  },
+  {
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif17.jpg",
+  },
+  {
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif18.jpg",
+  },
+  {
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif19.jpg",
+  },
+  {
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif20.png",
+  },
+  {
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif21.png",
+  },
+  {
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif22.png",
+  },
+  {
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif23.jpg",
+  },
+  {
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif24.jpg",
+  },
+  {
+    id: 1,
+    title: "E-commerce",
+    path: "images/certif/certif25.png",
   },
 ];

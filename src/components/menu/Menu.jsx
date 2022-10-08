@@ -26,11 +26,11 @@ export default function Menu({ menuOpen, setMenuOpen }) {
             Services
           </Link>
         </li>
-        {/* <li onClick={() => setMenuOpen(false)}>
-          <Link className="link" to="/testimonials">
-            Testimonials
+        <li onClick={() => setMenuOpen(false)}>
+          <Link className="link" to="/certifications">
+            Certifications
           </Link>
-        </li> */}
+        </li>
         <li onClick={() => setMenuOpen(false)}>
           <Link className="link" to="/contact">
             Contact
