@@ -13,7 +13,7 @@ export default function Potfolio() {
             <Carousel>
               {d.img.map((el) => (
                 <Carousel.Item>
-                  <img src={process.env.PUBLIC_URL + el.path} />
+                  <img src={process.env.PUBLIC_URL + el.path} alt="" />
                 </Carousel.Item>
               ))}
             </Carousel>

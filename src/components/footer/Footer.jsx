@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
 import {
-  Person,
+  // Person,
   Mail,
   Facebook,
   GitHub,
@@ -28,29 +28,29 @@ const Footer = () => {
                 </h1>
               </div>
               <div className="itemComtainer first col-xm-12 col-sm-12">
-                <Person className="icon" />
+                {/*<Person className="icon" />
                 <span>
                   +216 27 914 561 &nbsp; /&nbsp;&nbsp; +216 56 813 222
-                </span>
+                </span>*/}
               </div>
               <div className="social mt-3 mb-3">
                 <div className="social-media">
                   <a
-                    rel="noopener"
+                    rel="noreferrer"
                     target="_blank"
                     href="https://www.facebook.com/mohamed.mrad.1840/"
                   >
                     <Facebook className="icon social" />
                   </a>
                   <a
-                    rel="noopener"
+                    rel="noreferrer"
                     target="_blank"
                     href="https://api.whatsapp.com/send/?phone=21627914561"
                   >
                     <WhatsApp className="icon social" />
                   </a>
                   <a
-                    rel="noopener"
+                    rel="noreferrer"
                     target="_blank"
                     href="https://www.linkedin.com/in/mohamed-ali-mrad-3a9370199/"
                   >
@@ -58,14 +58,14 @@ const Footer = () => {
                   </a>
 
                   <a
-                    rel="noopener"
+                    rel="noreferrer"
                     target="_blank"
                     href="https://github.com/dalimedmrad"
                   >
                     {" "}
                     <GitHub className="icon social" />
                   </a>
-                  <a rel="noopener" href={`mailto:mohamedalimrad3@gmail.com`}>
+                  <a rel="noreferrer" href={`mailto:mohamedalimrad3@gmail.com`}>
                     <Mail className="icon social" />
                   </a>
                   <a href="tel:+21627914561">

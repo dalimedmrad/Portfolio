@@ -34,6 +34,8 @@ export default function Contact() {
   setTimeout(() => {
     showresult(false);
   }, 4000);
+
+  
   return (
     <div className="contact" id="contact">
       <div className="left">
@@ -46,7 +48,7 @@ export default function Contact() {
           <input type="email" name="email" placeholder="Email" required />
           <textarea placeholder="Message" name="message"></textarea>
           <input type="submit" value="Send" className="button" />
-          {result ? (
+          {result && message ? (
             <span>
               Your message has been sent successfully, I'll reply as soon as
               possible. Thanks 😄
